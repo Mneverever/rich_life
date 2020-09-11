@@ -2,7 +2,12 @@
 //2020.8.23
 /**** 1: txt file should be used to save "you"
     *2: change_day() should link water, food, health
-    ***/  
+    ***/    /*
+# Malones
+This project takes me 3 days when I was in the first year final exam of my collage.
+I hope some of you could help me to find the deficiency.
+Lots of thanks.
+*/
 
 #include <bits/stdc++.h>
 #include<windows.h>
