@@ -4,7 +4,7 @@
     *2: change_day() should link water, food, health
     ***/    /*
 # Malones
-This project takes me 3 days when I was in the first year final exam of my collage.
+This project takes me 3 days during my first year final exam of my collage.
 I hope some of you could help me to find the deficiency.
 Lots of thanks.
 */
@@ -394,3 +394,4 @@ show(you);
                 you.changeMoney(-money[t-1]);
                 you.changeDay();
 }
+//thanks for reading :)
