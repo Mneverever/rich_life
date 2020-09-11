@@ -1,8 +1,9 @@
 //a little game by myself.
 //2020.8.23
 /**** 1: txt file should be used to save "you"
-        *2: change_day() should link water, food, health
-        ***/
+    *2: change_day() should link water, food, health
+    ***/  
+
 #include <bits/stdc++.h>
 #include<windows.h>
 #include<rich_life.h>
@@ -251,10 +252,12 @@ void first_look(){
         cout << "*********************************" << endl ;
         cout << "*\t\t\t\t*" << endl ;
 }
+
 void last_look(){
         cout << endl << "*\t\t\t\t*" << endl ;
         cout << "*********************************" << endl ;
 }
+
 void show( rich_life &you){
         cout << endl;
         cout << "\t\tDAY : " << you.get_day() << endl;
@@ -264,7 +267,6 @@ void show( rich_life &you){
         cout << "your health : " << you.get_health() << "   " << "your money : " << you.get_money() << endl;
         cout << "your HH : " << you.get_HH() << "   " << "you HL : " << you.get_HL() << endl;
         cout << "your LH : " << you.get_LH() << "   " << "you LL : " << you.get_LL() << endl << endl << endl;
-
 }
 
 void if_you_can_buy_change_buy( rich_life& you , int money, int temp, commodity& com, int t){
